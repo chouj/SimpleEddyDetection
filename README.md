@@ -38,7 +38,7 @@ Simple Oceanic Mesoscale Eddy Detection based on sea level anomaly (sla)
     
     Eddy.radius: radius of an circle that has the same area as the eddy area enclosed by the eddy edge. Unit: Km
     
-    Eddy.edge: two vectors specify the longitudes and latitudes of eddy edge defined by the largest closed sla contour.
+    Eddy.edge: two vectors specify the longitudes and latitudes of eddy edge defined by the outermost closed sla contour.
     
  ###  A NetCDF file will be generated if successful detection.
    
